@@ -12,7 +12,7 @@ _           = require 'underscore'
 $ =
   generalPlugin: 'Send OSC'
   bitwigPlugin: 'Send OSC to Bitwig Studio'
-  bitwigOschtml: 'Send OSC to Bitwig Studio/bitwig-studio-2.3.0beta2-osc-doc.html'
+  bitwigOschtml: 'Send OSC to Bitwig Studio/bitwig-studio-2.3.0beta3-osc-doc.html'
   kmActions: "#{process.env.HOME}/Library/Application Support/Keyboard Maestro/Keyboard Maestro Actions"
   kmLibs: "#{process.env.HOME}/Library/Application Support/Keyboard Maestro/Keyboard Maestro Libraries"
 
