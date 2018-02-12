@@ -86,7 +86,7 @@ gulp.task 'install-bitwig-plugin-sh', ['uninstall-bitwig-plugin'], ->
         when 'Keyboard Maestro Action.plist'
           template = _.template file.contents.toString 'utf-8'
           file.contents = new Buffer template
-            Script: 'SendOSC.js'
+            Script: 'SendOSC.sh'
             Addresses: parseBitwigOscHtml().join('|')
     .pipe gulp.dest "#{$.kmActions}/#{$.bitwigPlugin}"
     .pipe install()

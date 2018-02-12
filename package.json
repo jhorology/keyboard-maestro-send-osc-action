@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "install-plugin-js": "./node_modules/.bin/gulp instal-js",
+    "install-plugin-js": "./node_modules/.bin/gulp install-js",
     "install-plugin-sh": "./node_modules/.bin/gulp install-sh",
     "uninstall-plugin": "./node_modules/.bin/gulp uninstall"
   },
