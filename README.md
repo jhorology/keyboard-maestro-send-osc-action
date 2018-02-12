@@ -37,3 +37,5 @@ PWD=`dirname "${0}"`
 cd "${PWD}"
 node SendOSC.js
 ```
+### ToDo
+- Support Keyboard Maestro variables. 
