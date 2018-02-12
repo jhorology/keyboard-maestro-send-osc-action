@@ -28,7 +28,7 @@ npm run uninstall-plugin
 ### Notes
 - Javascript version is better performance than shellscript version, but you need to re-install plug-in when the node execution path is changed. The node execution path will be appended automatically to SendOSC.js as shebang in installation process.
 ```shellscript
-#!/path/to/node.js/node
+#!/path/to/node.js/bin/node
 ```
 - In the case of using nvm, .bash_profile only knows the node execution path. So shellscript version execute javascript from following shell script.
 ```shellscript
