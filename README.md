@@ -1,9 +1,4 @@
-[Keyboard Maestro](http://www.keyboardmaestro.com) macro ction plug-ins to send OSC message via UDP.
-
-### Install Macro Library
-- [BitwigStudioActions.kmlibrary](dist)
-
-import via "Import to Macro Library" menu in Keybord Maestro Editor.
+[Keyboard Maestro](http://www.keyboardmaestro.com) Action Plug-in to send OSC message via UDP.
 
 ### Installation
 - Cloning this repository.
