@@ -1,16 +1,16 @@
 [Keyboard Maestro](http://www.keyboardmaestro.com) Action Plug-in to support sending OSC message via UDP.
 
 ### Installation
-- Cloning this repository.
+Cloning this repository.
 ```shellscript
 git clone https://github.com/jhorology/keyboard-maestro-send-osc-action.git
 cd keyboard-maestro-send-osc-action
 ```
-- Install dependencies.
+Install dependencies.
 ```shellscript
 npm install
 ```
-- If Keyboard Maestro or Keyboard Maestro Engine are running, close them, and then install action plug-in.
+If Keyboard Maestro or Keyboard Maestro Engine are running, close them, and then install action plug-in.
   - javascript version(Recomended).
     ```shellscript
     npm run install-plugin-js
