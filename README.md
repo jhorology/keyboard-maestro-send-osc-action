@@ -15,7 +15,7 @@ If Keyboard Maestro or Keyboard Maestro Engine are running, close them, and then
     ```shellscript
     npm run install-plugin-js
     ```
-  - shellscript version
+  - shell script version
     ```shellscript
     npm run install-plugin-sh
     ```
@@ -26,11 +26,11 @@ npm run uninstall-plugin
 ```
 
 ### Notes
-- Javascript version is better performance than shellscript version, but you need to re-install plug-ins when the node execution path is changed. The node execution path will be appended automatically to SendOSC.js as shebang during installation.
+- Javascript version is better performance than shell script version, but you need to re-install plug-ins when the node execution path is changed. The node execution path will be appended automatically to SendOSC.js as shebang during installation.
 ```shellscript
 #!/path/to/node.js/bin/node
 ```
-- In the case of using nvm, .bash_profile only knows the node execution path. So shellscript version execute javascript from following shell script.
+- In the case of using nvm, .bash_profile only knows the node execution path. So shell script version execute javascript from following shell script.
 ```shellscript
 #!/bin/bash -l
 PWD=`dirname "${0}"`
