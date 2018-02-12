@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+	<key>Name</key>
+	<string>Send OSC to Bitwig Studio</string>
+	<key>Script</key>
+	<string><%= Script %></string>
+	<key>Icon</key>
+	<string>Icon.png</string>
+	<key>Title</key>
+	<string>Send OSC message to Bitwig Studio</string>
+	<key>Author</key>
+	<string>jhorology2014@gmail.com</string>
+	<key>URL</key>
+	<string>https://github.com/jhorology/keyboard-maestro-send-osc-action</string>
+	<key>Results</key>
+	<string>Window</string>
+	<key>Parameters</key>
+	<array>
+	  <dict>
+		<key>Label</key>
+		<string>Remote Host</string>
+		<key>Type</key>
+		<string>String</string>
+		<key>Default</key>
+		<string>127.0.0.1</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Port</string>
+		<key>Type</key>
+		<string>String</string>
+		<key>Default</key>
+		<string>9001</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Address</string>
+		<key>Type</key>
+		<string>PopupMenu</string>
+		<key>Menu</key>
+	    <string><%= Addresses %></string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Arg0 Type</string>
+		<key>Type</key>
+		<string>PopupMenu</string>
+		<key>Default</key>
+		<string>None</string>
+		<key>Menu</key>
+		<string>None|i|h|f|s|S|T|F|N|I|d|c|r</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Arg0 Value</string>
+		<key>Type</key>
+		<string>String</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Arg1 Type</string>
+		<key>Type</key>
+		<string>PopupMenu</string>
+		<key>Default</key>
+		<string>None</string>
+		<key>Menu</key>
+		<string>None|i|h|f|s|S|T|F|N|I|d|c|r</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Arg1 Value</string>
+		<key>Type</key>
+		<string>String</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Arg2 Type</string>
+		<key>Type</key>
+		<string>PopupMenu</string>
+		<key>Default</key>
+		<string>None</string>
+		<key>Menu</key>
+		<string>None|i|h|f|s|S|T|F|N|I|d|c|r</string>
+	  </dict>
+	  <dict>
+		<key>Label</key>
+		<string>Arg2 Value</string>
+		<key>Type</key>
+		<string>String</string>
+	  </dict>
+	</array>
+  </dict>
+</plist>

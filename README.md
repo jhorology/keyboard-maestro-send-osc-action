@@ -1,0 +1,44 @@
+[Keyboard Maestro](http://www.keyboardmaestro.com) macro ction plug-ins to send OSC message via UDP.
+
+### Install Macro Library
+- [BitwigStudioActions.kmlibrary](dist)
+
+import via "Import to Macro Library" menu in Keybord Maestro Editor.
+
+### Installation
+- Cloning this repository.
+```shellscript
+git clone https://github.com/jhorology/keboard-maestro-send-osc-action.git
+cd keboard-maestro-send-osc-action
+```
+- Install dependencies.
+```shellscript
+npm install
+```
+- If Keyboard Maestro or Keyboard Maestro Engine are running, close them, and then install action plug-in.
+  - javascript version(Recomended).
+```shellscript
+npm run install-plugin-js
+```
+  - shellscript version
+```shellscript
+npm run install-plugin-sh
+```
+
+### Uninstallation
+```shellscript
+npm run uninstall-plugin
+```
+
+### Notes
+- Javascript version is better performance than shellscript version, but you need to re-install plug-in when the node execution path is changed. The node execution path will be appended automatically to SendOSC.js as shebang in installation process.
+```shellscript
+#!/path/to/node.js/node
+```
+- In the case of using nvm, .bash_profile only knows the node execution path. So shellscript version execute javascript from following shell script.
+```shellscript
+#!/bin/bash -l
+PWD=`dirname "${0}"`
+cd "${PWD}"
+node SendOSC.js
+```

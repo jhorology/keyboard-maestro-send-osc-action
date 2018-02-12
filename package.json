@@ -1,0 +1,31 @@
+{
+  "name": "keyboard-maestro-send-osc-action",
+  "version": "0.0.1",
+  "description": "Keyboard Maestro Action Plug-in to send OSC message via UDP",
+  "author": {
+    "name": "jhorology",
+    "email": "jhorology2014@gmail.com",
+    "url": "https://github.com/jhorology"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhorology/keyboard-maestro-send-osc-action"
+  },
+  "license": "MIT",
+  "scripts": {
+    "install-plugin-js": "./node_modules/.bin/gulp instal-js",
+    "install-plugin-sh": "./node_modules/.bin/gulp install-sh",
+    "uninstall-plugin": "./node_modules/.bin/gulp uninstall"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-install": "^1.1.0",
+    "gulp-tap": "^1.0.1",
+    "underscore": "^1.8.3",
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.27"
+  }
+}
