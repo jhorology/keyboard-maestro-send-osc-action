@@ -26,7 +26,7 @@ npm run uninstall-plugin
 ```
 
 ### Notes
-- Javascript version is better performance than shellscript version, but you need to re-install plug-in when the node execution path is changed. The node execution path will be appended automatically to SendOSC.js as shebang in installation process.
+- Javascript version is better performance than shellscript version, but you need to re-install plug-in when the node execution path is changed. The node execution path will be appended automatically to SendOSC.js as shebang during installation.
 ```shellscript
 #!/path/to/node.js/bin/node
 ```
