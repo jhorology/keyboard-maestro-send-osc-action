@@ -13,16 +13,16 @@ npm install
 If Keyboard Maestro or Keyboard Maestro Engine are running, close them, and then install action plug-ins.
   - javascript version(Recomended).
     ```shellscript
-    npm run install-plugin-js
+    npm run install-plugins-js
     ```
   - shell script version
     ```shellscript
-    npm run install-plugin-sh
+    npm run install-plugins-sh
     ```
 
 ### Uninstallation
 ```shellscript
-npm run uninstall-plugin
+npm run uninstall-plugins
 ```
 
 ### Notes

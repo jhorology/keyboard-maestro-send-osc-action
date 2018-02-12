@@ -23,14 +23,14 @@ gulp.task 'coffeelint', ->
 
 #  install Action Plug-in to execute javascript (recomended)
 #  better performance, but you need to re-install plugin on every changing node path
-gulp.task 'install-js', ['install-general-plugin-js', 'install-bitwig-plugin-js']
+gulp.task 'install-plugins-js', ['install-general-plugin-js', 'install-bitwig-plugin-js']
 
 #  install Action Plug-in to execute shell script
 #  shebang as bash -l
 #  in the case of using nvm, .bash_profile only knows node path.
-gulp.task 'install-sh', ['install-general-plugin-sh', 'install-bitwig-plugin-sh']
+gulp.task 'install-plugins-sh', ['install-general-plugin-sh', 'install-bitwig-plugin-sh']
 
-gulp.task 'uninstall', ['uninstall-general-plugin', 'uninstall-bitwig-plugin'], ->
+gulp.task 'uninstall-plugins', ['uninstall-general-plugin', 'uninstall-bitwig-plugin'], ->
 
 # install general purpose plug-in as javascript
 gulp.task 'install-general-plugin-js', ['uninstall-general-plugin'], ->
