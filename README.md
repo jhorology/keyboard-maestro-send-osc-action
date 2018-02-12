@@ -1,4 +1,4 @@
-[Keyboard Maestro](http://www.keyboardmaestro.com) Action Plug-in to send OSC message via UDP.
+[Keyboard Maestro](http://www.keyboardmaestro.com) Action Plug-in to support sending OSC message via UDP.
 
 ### Installation
 - Cloning this repository.
