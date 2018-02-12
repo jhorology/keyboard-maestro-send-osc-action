@@ -3,8 +3,8 @@
 ### Installation
 - Cloning this repository.
 ```shellscript
-git clone https://github.com/jhorology/keboard-maestro-send-osc-action.git
-cd keboard-maestro-send-osc-action
+git clone https://github.com/jhorology/keyboard-maestro-send-osc-action.git
+cd keyboard-maestro-send-osc-action
 ```
 - Install dependencies.
 ```shellscript
