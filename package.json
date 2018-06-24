@@ -18,13 +18,13 @@
     "uninstall-plugins": "./node_modules/.bin/gulp uninstall-plugins"
   },
   "devDependencies": {
-    "coffeescript": "^2.2.1",
+    "coffeescript": "^2.3.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.4.0",
     "gulp-coffeelint": "^0.6.0",
     "gulp-install": "^1.1.0",
     "gulp-tap": "^1.0.1",
-    "underscore": "^1.8.3",
+    "underscore": "^1.9.1",
     "xmldom": "^0.1.27",
     "xpath": "0.0.27"
   }
